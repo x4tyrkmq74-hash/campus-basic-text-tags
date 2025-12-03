@@ -2,40 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Basic Text Tags Activity</title>
+    <title>Basic HTML Text Tags Activity</title>
     <meta name="author" content="Yansel martinez">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <!-- This comment describes the main structure of the page -->
+    <!-- Basic HTML Text Tags Practice -->
+
     <header>
-        <h1>Basic HTML Text Tags Practice</h1>
+        <h1>Basic HTML Text Tags</h1>
     </header>
 
     <main>
         <section>
-            <h2>Introduction to Semantic HTML</h2>
-            <p>Semantic HTML means using tags that describe their meaning, which helps both browsers and assistive technologies understand the structure of a page.</p>
-            <p>For example, this paragraph uses <em>emphasis</em> to call attention to specific words and <strong>strong importance</strong> when something is extra important.</p>
-            <p>Developing good habits with semantic tags now will make your future projects <mark>easier to maintain</mark>, <mark>more accessible</mark>, and <mark>better for search engines</mark>.</p>
+            <h2>Beginning Practice</h2>
+
+            <p><strong>Beginning practice with the basic text formatting tags used in HTML5.</strong></p>
+
+            <p><em>Comments are used to add additional information to pages that helps developers working on that code.</em> You can also use a comment to hide content from your page.</p>
+
+            <p>
+                When you have text that is displayed in a block, usually with multiple lines, it's considered a paragraph. 
+                Paragraph text can include words or phrases that are emphasized in some way, and they can contain links and 
+                other markup used for text (but not headings). Paragraphs are block-level elements. It may happen that you have 
+                text, like a poem, that requires some special formatting. You'd need to ensure that each line displayed at a proper 
+                length, and you can do that with line break tags such as <code>&lt;br&gt;</code>. Remember that tags like 
+                <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> convey meaning.
+            </p>
         </section>
 
         <section>
-            <h2>Inline Text-Level Elements</h2>
-            <h3>Comparing Visual and Semantic Tags</h3>
-            <p>You can use <b>bold text with the &lt;b&gt; tag</b> or <i>italic text with the &lt;i&gt; tag</i>, but it is often better to use <code>&lt;strong&gt;</code> and <code>&lt;em&gt;</code> when you want to add meaning, not just style.</p>
-            <p>Many tutorials, such as <cite>HTML Basics in zyBooks</cite>, will show you how to combine tags like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, and <code>&lt;footer&gt;</code> to create a clear document outline.</p>
-            <p>Here is a simple list of line breaks using the &lt;br&gt; tag:<br>First line of text<br>Second line of text<br>Third line of text<br>Fourth line of text<br>Fifth line of text</p>
+            <h2>Marking up Text in Blocks</h2>
+            <h3>Excerpt from <cite>The Raven - a Poem by Edgar Allen Poe</cite></h3>
+
+            <p>
+                Once upon a midnight dreary, while I pondered, weak and weary,<br>
+                Over many a quaint and curious volume of forgotten lore—<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;While I nodded, nearly napping, suddenly there came a tapping,<br>
+                As of some one gently rapping, rapping at my chamber door.<br>
+                “'Tis some visitor,” I muttered, “tapping at my chamber door—
+            </p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;Only this and nothing more."</p>
+
+            <p>
+                This poem shows how <code>&lt;br&gt;</code> lines are used only when needed. Tags like 
+                <mark>emphasis</mark> and <mark>strong importance</mark> convey meaning. A line break is useful 
+                in poetry but not for layout. This is why semantic markup is important for <mark>readability</mark>.
+            </p>
         </section>
 
         <section>
-            <p>When writing HTML, always keep your code indented consistently so that nested elements are easy to see.</p>
-            <p>Remember that the section element is useful for grouping related content inside your main area.</p>
+            <p>
+                Sometimes, you are marking up small pieces of text, including single letters and words, to convey meaning. 
+                If your page offered search results, you may want to highlight a <mark>focus area</mark> in that text. 
+                For example, using <code>&lt;em&gt;</code> or <code>&lt;strong&gt;</code> is preferred for meaning.
+            </p>
+
+            <p>
+                The primary <b>focus area</b> must be chosen from one of the four GIT focus areas. The secondary focus area 
+                can be any topic that will best aid the student's career path. You might also describe text using 
+                <i>alternative styling</i> when needed.
+            </p>
+
+            <p>
+                We used the <code>&lt;b&gt;</code> and <code>&lt;i&gt;</code> tags above, but we haven't talked about 
+                the underline tag. These are not often used, and can confuse the user as they style text with an 
+                underline—the same way that links do by default. A good use for these is to highlight speling errors.
+            </p>
         </section>
     </main>
 
     <footer>
-        <p>Practice activity for basic text tags in HTML.</p>
+        <p>Copyright &copy; 2023</p>
     </footer>
+
 </body>
 </html>
